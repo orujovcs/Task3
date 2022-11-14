@@ -42,5 +42,4 @@ showButton.addEventListener('click', () => {
     messages.forEach(item => {
         history.innerHTML += (item);
     });
-    console.log(messages);
 });
